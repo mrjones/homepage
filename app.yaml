@@ -10,5 +10,9 @@ handlers:
   static_files: site/index.html
   upload: site/index.html
 
+- url: /oauth-go/
+  static_files: site/oauth-go/index.html
+  upload: site/oauth-go/index.html
+
 - url: /*
   static_dir: site
